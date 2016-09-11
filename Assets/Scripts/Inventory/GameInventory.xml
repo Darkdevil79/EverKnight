@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<GameInventory>
+  <GameItems>
+
+    <GameItem Name="Long Sword" Type="Weapon" SubType="Sword">
+      
+    </GameItem>
+    
+  </GameItems>
+</GameInventory>
+
+

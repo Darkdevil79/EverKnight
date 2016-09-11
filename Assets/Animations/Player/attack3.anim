@@ -1,0 +1,1968 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: attack3
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 6.3589}
+        inSlope: {x: 0, y: 0, z: 302.34204}
+        outSlope: {x: 0, y: 0, z: 302.34204}
+        tangentMode: 0
+      - time: 0.05
+        value: {x: 0, y: 0, z: 21.476002}
+        inSlope: {x: 0, y: 0, z: 281.05435}
+        outSlope: {x: 0, y: 0, z: 281.05435}
+        tangentMode: 0
+      - time: 0.2
+        value: {x: 0, y: 0, z: 60.441}
+        inSlope: {x: 0, y: 0, z: -410.9377}
+        outSlope: {x: 0, y: 0, z: -410.9377}
+        tangentMode: 0
+      - time: 0.25
+        value: {x: 0, y: 0, z: 6.3589}
+        inSlope: {x: 0, y: 0, z: -1081.6421}
+        outSlope: {x: 0, y: 0, z: -1081.6421}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: fabio_0003_right-arm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 90.182}
+        outSlope: {x: 0, y: 0, z: 90.182}
+        tangentMode: 0
+      - time: 0.05
+        value: {x: 0, y: 0, z: 4.5091}
+        inSlope: {x: 0, y: 0, z: 45.091}
+        outSlope: {x: 0, y: 0, z: 45.091}
+        tangentMode: 0
+      - time: 0.2
+        value: {x: 0, y: 0, z: 4.5091}
+        inSlope: {x: 0, y: 0, z: -45.091003}
+        outSlope: {x: 0, y: 0, z: -45.091003}
+        tangentMode: 0
+      - time: 0.25
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: -90.18201}
+        outSlope: {x: 0, y: 0, z: -90.18201}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: fabio_0004_head
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 297.74338}
+        inSlope: {x: 0, y: 0, z: 2698.9526}
+        outSlope: {x: 0, y: 0, z: 2698.9526}
+        tangentMode: 0
+      - time: 0.05
+        value: {x: 0, y: 0, z: 432.691}
+        inSlope: {x: 0, y: 0, z: 1071.9796}
+        outSlope: {x: 0, y: 0, z: 1071.9796}
+        tangentMode: 0
+      - time: 0.2
+        value: {x: 0, y: 0, z: 349.442}
+        inSlope: {x: 0, y: 0, z: -794.4829}
+        outSlope: {x: 0, y: 0, z: -794.4829}
+        tangentMode: 0
+      - time: 0.25
+        value: {x: 0, y: 0, z: 297.74338}
+        inSlope: {x: 0, y: 0, z: -1033.9723}
+        outSlope: {x: 0, y: 0, z: -1033.9723}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: fabio_0010_left-arm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 17.8149}
+        inSlope: {x: 0, y: 0, z: 183.22205}
+        outSlope: {x: 0, y: 0, z: 183.22205}
+        tangentMode: 0
+      - time: 0.05
+        value: {x: 0, y: 0, z: 26.976002}
+        inSlope: {x: 0, y: 0, z: -19.478981}
+        outSlope: {x: 0, y: 0, z: -19.478981}
+        tangentMode: 0
+      - time: 0.2
+        value: {x: 0, y: 0, z: -6.3510003}
+        inSlope: {x: 0, y: 0, z: 130.569}
+        outSlope: {x: 0, y: 0, z: 130.569}
+        tangentMode: 0
+      - time: 0.25
+        value: {x: 0, y: 0, z: 17.8149}
+        inSlope: {x: 0, y: 0, z: 483.31802}
+        outSlope: {x: 0, y: 0, z: 483.31802}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: fabio_0010_left-arm/fabio_0008_left-hand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 345.6699}
+        inSlope: {x: 0, y: 0, z: -190.8783}
+        outSlope: {x: 0, y: 0, z: -190.8783}
+        tangentMode: 0
+      - time: 0.05
+        value: {x: 0, y: 0, z: 336.12598}
+        inSlope: {x: 0, y: 0, z: -95.43915}
+        outSlope: {x: 0, y: 0, z: -95.43915}
+        tangentMode: 0
+      - time: 0.2
+        value: {x: 0, y: 0, z: 336.12598}
+        inSlope: {x: 0, y: 0, z: 95.439156}
+        outSlope: {x: 0, y: 0, z: 95.439156}
+        tangentMode: 0
+      - time: 0.25
+        value: {x: 0, y: 0, z: 345.6699}
+        inSlope: {x: 0, y: 0, z: 190.87831}
+        outSlope: {x: 0, y: 0, z: 190.87831}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: fabio_0003_right-arm/fabio_0002_right-hand/fabio_0001_shield
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 4.3813}
+        inSlope: {x: 0, y: 0, z: -371.18597}
+        outSlope: {x: 0, y: 0, z: -371.18597}
+        tangentMode: 0
+      - time: 0.05
+        value: {x: 0, y: 0, z: -14.178}
+        inSlope: {x: 0, y: 0, z: -163.03299}
+        outSlope: {x: 0, y: 0, z: -163.03299}
+        tangentMode: 0
+      - time: 0.2
+        value: {x: 0, y: 0, z: -7.4100003}
+        inSlope: {x: 0, y: 0, z: 45.12}
+        outSlope: {x: 0, y: 0, z: 45.12}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: fabio_0010_left-arm/fabio_0008_left-hand/fabio_0009_sword
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 2.8300002}
+        inSlope: {x: 0, y: 0, z: 180.64001}
+        outSlope: {x: 0, y: 0, z: 180.64001}
+        tangentMode: 0
+      - time: 0.05
+        value: {x: 0, y: 0, z: 11.862}
+        inSlope: {x: 0, y: 0, z: 180.64001}
+        outSlope: {x: 0, y: 0, z: 180.64001}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: fabio_0012_right-leg
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: -1.58, z: 0}
+        inSlope: {x: 0, y: 1.6000009, z: 0}
+        outSlope: {x: 0, y: 1.6000009, z: 0}
+        tangentMode: 0
+      - time: 0.05
+        value: {x: 0, y: -1.5, z: 0}
+        inSlope: {x: 0, y: 0.8000004, z: 0}
+        outSlope: {x: 0, y: 0.8000004, z: 0}
+        tangentMode: 0
+      - time: 0.2
+        value: {x: 0, y: -1.5, z: 0}
+        inSlope: {x: 0, y: -0.8000005, z: 0}
+        outSlope: {x: 0, y: -0.8000005, z: 0}
+        tangentMode: 0
+      - time: 0.25
+        value: {x: 0, y: -1.58, z: 0}
+        inSlope: {x: 0, y: -1.600001, z: 0}
+        outSlope: {x: 0, y: -1.600001, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: 
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.13648319, y: 1.97, z: 0}
+        inSlope: {x: 0, y: 0.0000047683716, z: 0}
+        outSlope: {x: 0, y: 0.0000047683716, z: 0}
+        tangentMode: 0
+      - time: 0.05
+        value: {x: -0.13648319, y: 1.9700003, z: 0}
+        inSlope: {x: 0, y: 0.0000023841858, z: 0}
+        outSlope: {x: 0, y: 0.0000023841858, z: 0}
+        tangentMode: 0
+      - time: 0.2
+        value: {x: -0.13648319, y: 1.9700003, z: 0}
+        inSlope: {x: 0, y: -0.000002384186, z: 0}
+        outSlope: {x: 0, y: -0.000002384186, z: 0}
+        tangentMode: 0
+      - time: 0.25
+        value: {x: -0.13648319, y: 1.97, z: 0}
+        inSlope: {x: 0, y: -0.000004768372, z: 0}
+        outSlope: {x: 0, y: -0.000004768372, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: fabio_0004_head
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.13, y: -0.74, z: 0}
+        inSlope: {x: 0, y: -1.3999999, z: 0}
+        outSlope: {x: 0, y: -1.3999999, z: 0}
+        tangentMode: 0
+      - time: 0.05
+        value: {x: 0.13, y: -0.81, z: 0}
+        inSlope: {x: 0, y: -0.6999999, z: 0}
+        outSlope: {x: 0, y: -0.6999999, z: 0}
+        tangentMode: 0
+      - time: 0.2
+        value: {x: 0.13, y: -0.81, z: 0}
+        inSlope: {x: 0, y: 0.7, z: 0}
+        outSlope: {x: 0, y: 0.7, z: 0}
+        tangentMode: 0
+      - time: 0.25
+        value: {x: 0.13, y: -0.74, z: 0}
+        inSlope: {x: 0, y: 1.4, z: 0}
+        outSlope: {x: 0, y: 1.4, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: fabio_0007_left-leg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.74, y: -0.79, z: 0}
+        inSlope: {x: 0, y: -1.3999999, z: 0}
+        outSlope: {x: 0, y: -1.3999999, z: 0}
+        tangentMode: 0
+      - time: 0.05
+        value: {x: -0.74, y: -0.86, z: 0}
+        inSlope: {x: 0, y: -0.6999999, z: 0}
+        outSlope: {x: 0, y: -0.6999999, z: 0}
+        tangentMode: 0
+      - time: 0.2
+        value: {x: -0.74, y: -0.86, z: 0}
+        inSlope: {x: 0, y: 0.7, z: 0}
+        outSlope: {x: 0, y: 0.7, z: 0}
+        tangentMode: 0
+      - time: 0.25
+        value: {x: -0.74, y: -0.79, z: 0}
+        inSlope: {x: 0, y: 1.4, z: 0}
+        outSlope: {x: 0, y: 1.4, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: fabio_0012_right-leg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.14, y: -0.49000025, z: 0}
+        inSlope: {x: 0.0000071525574, y: -0.0000047683716, z: 0}
+        outSlope: {x: 0.0000071525574, y: -0.0000047683716, z: 0}
+        tangentMode: 0
+      - time: 0.05
+        value: {x: 1.1400003, y: -0.4900005, z: 0}
+        inSlope: {x: 0.0000035762787, y: -0.0000023841858, z: 0}
+        outSlope: {x: 0.0000035762787, y: -0.0000023841858, z: 0}
+        tangentMode: 0
+      - time: 0.2
+        value: {x: 1.1400003, y: -0.4900005, z: 0}
+        inSlope: {x: -0.000003576279, y: 0.000002384186, z: 0}
+        outSlope: {x: -0.000003576279, y: 0.000002384186, z: 0}
+        tangentMode: 0
+      - time: 0.25
+        value: {x: 1.14, y: -0.49000025, z: 0}
+        inSlope: {x: -0.000007152558, y: 0.000004768372, z: 0}
+        outSlope: {x: -0.000007152558, y: 0.000004768372, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: fabio_0010_left-arm/fabio_0008_left-hand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.089999855, y: -0.049999952, z: 0}
+        inSlope: {x: 0.0000022351742, y: 0.000003427267, z: 0}
+        outSlope: {x: 0.0000022351742, y: 0.000003427267, z: 0}
+        tangentMode: 0
+      - time: 0.05
+        value: {x: 0.08999997, y: -0.04999978, z: 0}
+        inSlope: {x: 0.0000011175871, y: 0.0000017136335, z: 0}
+        outSlope: {x: 0.0000011175871, y: 0.0000017136335, z: 0}
+        tangentMode: 0
+      - time: 0.2
+        value: {x: 0.08999997, y: -0.04999978, z: 0}
+        inSlope: {x: -0.0000011175872, y: -0.0000017136337, z: 0}
+        outSlope: {x: -0.0000011175872, y: -0.0000017136337, z: 0}
+        tangentMode: 0
+      - time: 0.25
+        value: {x: 0.089999855, y: -0.049999952, z: 0}
+        inSlope: {x: -0.0000022351744, y: -0.0000034272673, z: 0}
+        outSlope: {x: -0.0000022351744, y: -0.0000034272673, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: fabio_0003_right-arm/fabio_0002_right-hand/fabio_0001_shield
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.38, y: 0.02, z: 0}
+        inSlope: {x: 0.0000009536743, y: 0, z: 0}
+        outSlope: {x: 0.0000009536743, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: fabio_0010_left-arm/fabio_0008_left-hand/fabio_0009_sword
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.61000013, y: 0.6700001, z: 0}
+        inSlope: {x: -12.800002, y: -1.2000012, z: 0}
+        outSlope: {x: -12.800002, y: -1.2000012, z: 0}
+        tangentMode: 0
+      - time: 0.05
+        value: {x: -0.03, y: 0.61, z: 0}
+        inSlope: {x: -4.8666677, y: -1.1666673, z: 0}
+        outSlope: {x: -4.8666677, y: -1.1666673, z: 0}
+        tangentMode: 0
+      - time: 0.2
+        value: {x: 0.43, y: 0.44, z: 0}
+        inSlope: {x: 3.0666666, y: -1.1333334, z: 0}
+        outSlope: {x: 3.0666666, y: -1.1333334, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: fabio_0010_left-arm
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - path: 0
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1445099714
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1208569573
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 4052511477
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2534777559
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 807972895
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2262135943
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1177094017
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 1445099714
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 2262135943
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 2534777559
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 807972895
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 1374097471
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 4052511477
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 1374097471
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.25
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -1.58
+        inSlope: 1.6000009
+        outSlope: 1.6000009
+        tangentMode: 10
+      - time: 0.05
+        value: -1.5
+        inSlope: 0.8000004
+        outSlope: 0.8000004
+        tangentMode: 10
+      - time: 0.2
+        value: -1.5
+        inSlope: -0.8000005
+        outSlope: -0.8000005
+        tangentMode: 10
+      - time: 0.25
+        value: -1.58
+        inSlope: -1.600001
+        outSlope: -1.600001
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: fabio_0003_right-arm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: fabio_0003_right-arm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 6.3589
+        inSlope: 302.34204
+        outSlope: 302.34204
+        tangentMode: 10
+      - time: 0.05
+        value: 21.476002
+        inSlope: 281.05435
+        outSlope: 281.05435
+        tangentMode: 10
+      - time: 0.2
+        value: 60.441
+        inSlope: -410.9377
+        outSlope: -410.9377
+        tangentMode: 10
+      - time: 0.25
+        value: 6.3589
+        inSlope: -1081.6421
+        outSlope: -1081.6421
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: fabio_0003_right-arm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0.13648319
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: -0.13648319
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: -0.13648319
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: -0.13648319
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: fabio_0004_head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.97
+        inSlope: 0.0000047683716
+        outSlope: 0.0000047683716
+        tangentMode: 10
+      - time: 0.05
+        value: 1.9700003
+        inSlope: 0.0000023841858
+        outSlope: 0.0000023841858
+        tangentMode: 10
+      - time: 0.2
+        value: 1.9700003
+        inSlope: -0.000002384186
+        outSlope: -0.000002384186
+        tangentMode: 10
+      - time: 0.25
+        value: 1.97
+        inSlope: -0.000004768372
+        outSlope: -0.000004768372
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: fabio_0004_head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: fabio_0004_head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: fabio_0004_head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: fabio_0004_head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 90.182
+        outSlope: 90.182
+        tangentMode: 10
+      - time: 0.05
+        value: 4.5091
+        inSlope: 45.091
+        outSlope: 45.091
+        tangentMode: 10
+      - time: 0.2
+        value: 4.5091
+        inSlope: -45.091003
+        outSlope: -45.091003
+        tangentMode: 10
+      - time: 0.25
+        value: 0
+        inSlope: -90.18201
+        outSlope: -90.18201
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: fabio_0004_head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0.13
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0.13
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0.13
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: 0.13
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: fabio_0007_left-leg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0.74
+        inSlope: -1.3999999
+        outSlope: -1.3999999
+        tangentMode: 10
+      - time: 0.05
+        value: -0.81
+        inSlope: -0.6999999
+        outSlope: -0.6999999
+        tangentMode: 10
+      - time: 0.2
+        value: -0.81
+        inSlope: 0.7
+        outSlope: 0.7
+        tangentMode: 10
+      - time: 0.25
+        value: -0.74
+        inSlope: 1.4
+        outSlope: 1.4
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: fabio_0007_left-leg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: fabio_0007_left-leg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: fabio_0010_left-arm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: fabio_0010_left-arm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 297.74338
+        inSlope: 2698.9526
+        outSlope: 2698.9526
+        tangentMode: 10
+      - time: 0.05
+        value: 432.691
+        inSlope: 1071.9796
+        outSlope: 1071.9796
+        tangentMode: 10
+      - time: 0.2
+        value: 349.442
+        inSlope: -794.4829
+        outSlope: -794.4829
+        tangentMode: 10
+      - time: 0.25
+        value: 297.74338
+        inSlope: -1033.9723
+        outSlope: -1033.9723
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: fabio_0010_left-arm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0.74
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: -0.74
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: -0.74
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: -0.74
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: fabio_0012_right-leg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0.79
+        inSlope: -1.3999999
+        outSlope: -1.3999999
+        tangentMode: 10
+      - time: 0.05
+        value: -0.86
+        inSlope: -0.6999999
+        outSlope: -0.6999999
+        tangentMode: 10
+      - time: 0.2
+        value: -0.86
+        inSlope: 0.7
+        outSlope: 0.7
+        tangentMode: 10
+      - time: 0.25
+        value: -0.79
+        inSlope: 1.4
+        outSlope: 1.4
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: fabio_0012_right-leg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: fabio_0012_right-leg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.14
+        inSlope: 0.0000071525574
+        outSlope: 0.0000071525574
+        tangentMode: 10
+      - time: 0.05
+        value: 1.1400003
+        inSlope: 0.0000035762787
+        outSlope: 0.0000035762787
+        tangentMode: 10
+      - time: 0.2
+        value: 1.1400003
+        inSlope: -0.000003576279
+        outSlope: -0.000003576279
+        tangentMode: 10
+      - time: 0.25
+        value: 1.14
+        inSlope: -0.000007152558
+        outSlope: -0.000007152558
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: fabio_0010_left-arm/fabio_0008_left-hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0.49000025
+        inSlope: -0.0000047683716
+        outSlope: -0.0000047683716
+        tangentMode: 10
+      - time: 0.05
+        value: -0.4900005
+        inSlope: -0.0000023841858
+        outSlope: -0.0000023841858
+        tangentMode: 10
+      - time: 0.2
+        value: -0.4900005
+        inSlope: 0.000002384186
+        outSlope: 0.000002384186
+        tangentMode: 10
+      - time: 0.25
+        value: -0.49000025
+        inSlope: 0.000004768372
+        outSlope: 0.000004768372
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: fabio_0010_left-arm/fabio_0008_left-hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: fabio_0010_left-arm/fabio_0008_left-hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: fabio_0010_left-arm/fabio_0008_left-hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: fabio_0010_left-arm/fabio_0008_left-hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 17.8149
+        inSlope: 183.22205
+        outSlope: 183.22205
+        tangentMode: 10
+      - time: 0.05
+        value: 26.976002
+        inSlope: -19.478981
+        outSlope: -19.478981
+        tangentMode: 10
+      - time: 0.2
+        value: -6.3510003
+        inSlope: 130.569
+        outSlope: 130.569
+        tangentMode: 10
+      - time: 0.25
+        value: 17.8149
+        inSlope: 483.31802
+        outSlope: 483.31802
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: fabio_0010_left-arm/fabio_0008_left-hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0.089999855
+        inSlope: 0.0000022351742
+        outSlope: 0.0000022351742
+        tangentMode: 10
+      - time: 0.05
+        value: 0.08999997
+        inSlope: 0.0000011175871
+        outSlope: 0.0000011175871
+        tangentMode: 10
+      - time: 0.2
+        value: 0.08999997
+        inSlope: -0.0000011175872
+        outSlope: -0.0000011175872
+        tangentMode: 10
+      - time: 0.25
+        value: 0.089999855
+        inSlope: -0.0000022351744
+        outSlope: -0.0000022351744
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: fabio_0003_right-arm/fabio_0002_right-hand/fabio_0001_shield
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0.049999952
+        inSlope: 0.000003427267
+        outSlope: 0.000003427267
+        tangentMode: 10
+      - time: 0.05
+        value: -0.04999978
+        inSlope: 0.0000017136335
+        outSlope: 0.0000017136335
+        tangentMode: 10
+      - time: 0.2
+        value: -0.04999978
+        inSlope: -0.0000017136337
+        outSlope: -0.0000017136337
+        tangentMode: 10
+      - time: 0.25
+        value: -0.049999952
+        inSlope: -0.0000034272673
+        outSlope: -0.0000034272673
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: fabio_0003_right-arm/fabio_0002_right-hand/fabio_0001_shield
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: fabio_0003_right-arm/fabio_0002_right-hand/fabio_0001_shield
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: fabio_0003_right-arm/fabio_0002_right-hand/fabio_0001_shield
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: fabio_0003_right-arm/fabio_0002_right-hand/fabio_0001_shield
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 345.6699
+        inSlope: -190.8783
+        outSlope: -190.8783
+        tangentMode: 10
+      - time: 0.05
+        value: 336.12598
+        inSlope: -95.43915
+        outSlope: -95.43915
+        tangentMode: 10
+      - time: 0.2
+        value: 336.12598
+        inSlope: 95.439156
+        outSlope: 95.439156
+        tangentMode: 10
+      - time: 0.25
+        value: 345.6699
+        inSlope: 190.87831
+        outSlope: 190.87831
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: fabio_0003_right-arm/fabio_0002_right-hand/fabio_0001_shield
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0.38
+        inSlope: 0.0000009536743
+        outSlope: 0.0000009536743
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: fabio_0010_left-arm/fabio_0008_left-hand/fabio_0009_sword
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0.02
+        inSlope: -0.00000022351742
+        outSlope: -0.00000022351742
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: fabio_0010_left-arm/fabio_0008_left-hand/fabio_0009_sword
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: fabio_0010_left-arm/fabio_0008_left-hand/fabio_0009_sword
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: fabio_0010_left-arm/fabio_0008_left-hand/fabio_0009_sword
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: fabio_0010_left-arm/fabio_0008_left-hand/fabio_0009_sword
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 4.3813
+        inSlope: -371.18597
+        outSlope: -371.18597
+        tangentMode: 10
+      - time: 0.05
+        value: -14.178
+        inSlope: -163.03299
+        outSlope: -163.03299
+        tangentMode: 10
+      - time: 0.2
+        value: -7.4100003
+        inSlope: 45.12
+        outSlope: 45.12
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: fabio_0010_left-arm/fabio_0008_left-hand/fabio_0009_sword
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0.61000013
+        inSlope: -12.800002
+        outSlope: -12.800002
+        tangentMode: 10
+      - time: 0.05
+        value: -0.03
+        inSlope: -4.8666677
+        outSlope: -4.8666677
+        tangentMode: 10
+      - time: 0.2
+        value: 0.43
+        inSlope: 3.0666666
+        outSlope: 3.0666666
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: fabio_0010_left-arm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0.6700001
+        inSlope: -1.2000012
+        outSlope: -1.2000012
+        tangentMode: 10
+      - time: 0.05
+        value: 0.61
+        inSlope: -1.1666673
+        outSlope: -1.1666673
+        tangentMode: 10
+      - time: 0.2
+        value: 0.44
+        inSlope: -1.1333334
+        outSlope: -1.1333334
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: fabio_0010_left-arm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: fabio_0010_left-arm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: fabio_0012_right-leg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.05
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: fabio_0012_right-leg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2.8300002
+        inSlope: 180.64001
+        outSlope: 180.64001
+        tangentMode: 10
+      - time: 0.05
+        value: 11.862
+        inSlope: 180.64001
+        outSlope: 180.64001
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: fabio_0012_right-leg
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: fabio_0003_right-arm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: fabio_0003_right-arm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: fabio_0003_right-arm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: fabio_0012_right-leg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: fabio_0012_right-leg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: fabio_0012_right-leg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: fabio_0010_left-arm/fabio_0008_left-hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: fabio_0010_left-arm/fabio_0008_left-hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: fabio_0010_left-arm/fabio_0008_left-hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: fabio_0004_head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: fabio_0004_head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: fabio_0004_head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: fabio_0003_right-arm/fabio_0002_right-hand/fabio_0001_shield
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: fabio_0003_right-arm/fabio_0002_right-hand/fabio_0001_shield
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: fabio_0003_right-arm/fabio_0002_right-hand/fabio_0001_shield
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: fabio_0010_left-arm/fabio_0008_left-hand/fabio_0009_sword
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: fabio_0010_left-arm/fabio_0008_left-hand/fabio_0009_sword
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: fabio_0010_left-arm/fabio_0008_left-hand/fabio_0009_sword
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: fabio_0010_left-arm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: fabio_0010_left-arm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: fabio_0010_left-arm
+    classID: 4
+    script: {fileID: 0}
+  m_HasGenericRootTransform: 1
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []
