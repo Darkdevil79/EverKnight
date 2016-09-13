@@ -28,6 +28,8 @@ public class LivingEntity : MonoBehaviour, IDamageable
         }
     }
     public Transform EntityRotation;
+    [HideInInspector]
+    public BoxCollider2D entityCollider;
 
     public float Gravity
     {
@@ -147,6 +149,7 @@ public class LivingEntity : MonoBehaviour, IDamageable
     {
         tEntity = this.transform;
         controller = GetComponent<Controller2D>();
+        entityCollider = GetComponent<BoxCollider2D>();
 
         MoveSpeed = BaseMoveSpeed;
         hitPoints = maxHitpoint;

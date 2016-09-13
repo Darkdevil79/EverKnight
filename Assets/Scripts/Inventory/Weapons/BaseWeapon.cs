@@ -3,6 +3,7 @@ using System.Collections;
 using System;
 
 [RequireComponent(typeof(PolygonCollider2D))]
+[RequireComponent(typeof(Rigidbody2D))]
 public abstract class BaseWeapon : MonoBehaviour {
 
     public string WeaponName;
@@ -17,6 +18,8 @@ public abstract class BaseWeapon : MonoBehaviour {
     [HideInInspector]
     public PolygonCollider2D WeaponCollider;
 
+    Rigidbody2D weaponRB;
+
     bool hasAppliedDamage = false;
     float damageApplyCoolDown = 0;
     DamageInfo weaponDamageInfo;
@@ -25,6 +28,12 @@ public abstract class BaseWeapon : MonoBehaviour {
     void Start()
     {
         WeaponCollider = GetComponent<PolygonCollider2D>();
+        WeaponCollider.isTrigger = true;
+
+        weaponRB = GetComponent<Rigidbody2D>();
+        weaponRB.gravityScale = 0;
+
+
         InitWeapon();
     }
 
@@ -39,6 +48,7 @@ public abstract class BaseWeapon : MonoBehaviour {
         {
             if (!hasAppliedDamage)
             {
+                Debug.Log("Apply Damage on " + hitEntiy.name);
                 ApplyDamageToHitObject(hitEntiy);
             }
         }

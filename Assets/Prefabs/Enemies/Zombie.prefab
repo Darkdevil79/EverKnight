@@ -136,6 +136,7 @@ GameObject:
   - 212: {fileID: 212000012840469468}
   - 60: {fileID: 60000013208135962}
   - 114: {fileID: 114000011575318268}
+  - 50: {fileID: 50000010753400434}
   m_Layer: 10
   m_Name: zombie_0007_right-arm
   m_TagString: Untagged
@@ -254,6 +255,23 @@ Transform:
   - {fileID: 4000011698074514}
   m_Father: {fileID: 4000012253556894}
   m_RootOrder: 0
+--- !u!50 &50000010753400434
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014182814732}
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!60 &60000013208135962
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -268,17 +286,7 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: 0.33919403, y: -0.047268752}
-      - {x: 0.25919402, y: 0.10273124}
-      - {x: 0.12919402, y: 0.34273124}
-      - {x: 0.019194031, y: 0.49273124}
-      - {x: -0.59080595, y: 0.46273124}
-      - {x: -0.96080595, y: 0.44273123}
-      - {x: -1.1708059, y: 0.43273124}
-      - {x: -1.3408059, y: 0.6227312}
-      - {x: -1.4708059, y: 0.71273124}
-      - {x: -1.6908059, y: 0.71273124}
-      - {x: -1.9708059, y: 0.89273125}
+    - - {x: -1.9708059, y: 0.89273125}
       - {x: -2.3008058, y: 1.1927313}
       - {x: -2.410806, y: 1.2827313}
       - {x: -2.7308059, y: 1.2827313}
@@ -296,20 +304,6 @@ PolygonCollider2D:
       - {x: -2.5608058, y: 0.27273124}
       - {x: -2.440806, y: 0.26273125}
       - {x: -2.390806, y: 0.10273124}
-      - {x: -2.2408059, y: -0.06726875}
-      - {x: -2.160806, y: -0.14726874}
-      - {x: -2.060806, y: -0.19726875}
-      - {x: -1.8108059, y: -0.22726874}
-      - {x: -1.370806, y: -0.21726875}
-      - {x: -1.250806, y: -0.19726875}
-      - {x: -1.2008059, y: -0.15726875}
-      - {x: -1.1708059, y: -0.11726875}
-      - {x: -0.9308059, y: -0.19726875}
-      - {x: -0.46080595, y: -0.33726874}
-      - {x: -0.32080597, y: -0.33726874}
-      - {x: -0.13080597, y: -0.27726874}
-      - {x: 0.23919402, y: -0.17726874}
-      - {x: 0.33919403, y: -0.12726875}
 --- !u!61 &61000011925604654
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -365,10 +359,11 @@ MonoBehaviour:
   pAnimator: {fileID: 95000013147171126}
   attackWeapon: {fileID: 114000011575318268}
   WalkIdleMinMax: {x: 2, y: 8}
-  AttackSpeed: 0.8
-  AttackRange: 10
+  AttackSpeed: 2
+  AttackRange: 5
   FindPlayerRange: 20
   MoveAttackModifer: 1.2
+  aiState: 0
 --- !u!114 &114000011575318268
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -399,7 +394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collisionMask:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 768
   horizontalRayCount: 0
   verticalRayCount: 0
   horizontalRaySpacing: 0

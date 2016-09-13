@@ -4,7 +4,7 @@ using System.Collections;
 [RequireComponent(typeof(Controller2D))]
 public class WalkingEnemy : LivingEntity {
 
-    public enum _EnemyState { FOUNDPLAYER , LOOKFOR , DEAD };
+    public enum _EnemyState { FOUNDPLAYER , ATTACKPLAYER ,  LOOKFOR , DEAD };
 
     public Animator pAnimator;
     public BaseWeapon attackWeapon;
@@ -15,10 +15,11 @@ public class WalkingEnemy : LivingEntity {
     public float FindPlayerRange;
     public float MoveAttackModifer;
 
-    _EnemyState aiState;
+    public _EnemyState aiState;
     Transform foundPlayer;
     float animationEffectTimer;
     float attackTimer;
+    float dstFromPlayer;
 
 
     public override void InitLivingEntity()
@@ -35,13 +36,15 @@ public class WalkingEnemy : LivingEntity {
     {
         base.Update();
 
+        dstFromPlayer = Common.CheckDistanceFromPlayer(tEntity);
+
         ProcessAIState();
     }
 
     private void ProcessAIState()
     {
 
-        if (Common.CheckDistanceFromPlayer(tEntity) < FindPlayerRange)
+        if (dstFromPlayer < FindPlayerRange && aiState == _EnemyState.LOOKFOR)
         {
             foundPlayer = GameManager.Instance.MainPlayer;
             aiState = _EnemyState.FOUNDPLAYER;
@@ -52,26 +55,6 @@ public class WalkingEnemy : LivingEntity {
 
         switch (aiState)
         {
-            case _EnemyState.FOUNDPLAYER:
-
-                pAnimator.SetBool("isIdle", false);
-                MoveSpeed = BaseMoveSpeed * MoveAttackModifer;
-
-                if (Common.CheckDistanceFromPlayer(tEntity) <= AttackRange )
-                {
-                    pAnimator.SetBool("isAttacking", true);
-
-                    if (attackTimer < Time.time)
-                    {
-                        int attackId = Random.Range(1, 3);
-                        pAnimator.SetTrigger("t_Attack" + attackId);
-                        attackTimer = Time.time + AttackSpeed;
-                        attackWeapon.WeaponCollider.enabled = true;
-                    }
-
-                }
-
-                break;
             case _EnemyState.LOOKFOR:
 
                 if (!pAnimator.IsInTransition(0) && animationEffectTimer < Time.time)
@@ -81,17 +64,57 @@ public class WalkingEnemy : LivingEntity {
                     animationEffectTimer = Time.time + Random.Range(WalkIdleMinMax.x, WalkIdleMinMax.y);
                 }
 
+                if (pAnimator.GetBool("isIdle"))
+                    SetDirectionalInput(new Vector2(0, 0));
+                else
+                    SetDirectionalInput(new Vector2(-1, 0));
+
                 break;
+
+            case _EnemyState.FOUNDPLAYER:
+
+                pAnimator.SetBool("isIdle", false);
+                MoveSpeed = BaseMoveSpeed * MoveAttackModifer;
+
+                Debug.Log(dstFromPlayer);
+
+                if (dstFromPlayer <= AttackRange )
+                {
+                    aiState = _EnemyState.ATTACKPLAYER;
+                }
+
+                break;
+
+            case _EnemyState.ATTACKPLAYER:
+
+                pAnimator.SetBool("isAttacking", true);
+                SetDirectionalInput(new Vector2(0, 0));
+
+                if (attackTimer < Time.time)
+                {
+                    attackWeapon.WeaponCollider.enabled = true;
+                    int attackId = Random.Range(1, 3);
+                    pAnimator.SetTrigger("t_Attack" + attackId);
+                    attackTimer = Time.time + AttackSpeed;
+         
+                }
+
+                if (dstFromPlayer > AttackRange && dstFromPlayer < FindPlayerRange)
+                {
+                    pAnimator.SetBool("isAttacking", false);
+                    aiState = _EnemyState.LOOKFOR; 
+                }
+
+                break;
+           
             case _EnemyState.DEAD:
                 break;
             default:
                 break;
         }
 
-        if (pAnimator.GetBool("isIdle"))
-            SetDirectionalInput(new Vector2(0, 0));
-        else
-            SetDirectionalInput(new Vector2(-1, 0));
+
+       
 
     }
 
@@ -99,6 +122,7 @@ public class WalkingEnemy : LivingEntity {
     {
         base.OnDeath();
         pAnimator.SetTrigger("t_hasDied");
+        entityCollider.enabled = false;
         DestroyObject(this.gameObject, 3f);
     }
 }

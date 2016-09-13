@@ -167,6 +167,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
+--- !u!114 &18117395 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114000011767179510, guid: 56267367e346a1b4992204443ee5a93e,
+    type: 2}
+  m_PrefabInternal: {fileID: 345342444}
+  m_Script: {fileID: 11500000, guid: 81ac8e51e084f2b44a210634e393108f, type: 3}
 --- !u!1 &59849898
 GameObject:
   m_ObjectHideFlags: 0
@@ -2030,12 +2036,6 @@ Transform:
   - {fileID: 608687941}
   m_Father: {fileID: 1324365366}
   m_RootOrder: 1
---- !u!114 &93212976 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114000010935849098, guid: 56267367e346a1b4992204443ee5a93e,
-    type: 2}
-  m_PrefabInternal: {fileID: 345342444}
-  m_Script: {fileID: 11500000, guid: f0b803c4b8ed7ce48b6f4fdbc6a95113, type: 3}
 --- !u!4 &109625134 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000012184316100, guid: 9789118ae9aab0546b4d42187f172db5,
@@ -2865,6 +2865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d1132e2b5045b44a068f5f32a743cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerLifeBar: {fileID: 345938387}
   GameUICanvas: {fileID: 422738120}
   DisplayOffset: {x: -50, y: 180}
   DisplayEnemyLBAfter: 20
@@ -4198,7 +4199,7 @@ Prefab:
         type: 2}
       propertyPath: LinkedLE
       value: 
-      objectReference: {fileID: 93212976}
+      objectReference: {fileID: 18117395}
     - target: {fileID: 224000012894780900, guid: d04df1a856807ce4c90850ad42dcad0e,
         type: 2}
       propertyPath: m_AnchorMax.x
@@ -6644,11 +6645,6 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013362636532, guid: 3a496375f66782a42b501d37963cb8fc, type: 2}
       propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010543006294, guid: 3a496375f66782a42b501d37963cb8fc,
-        type: 2}
-      propertyPath: MoveAttackModifer
       value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []

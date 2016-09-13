@@ -3,6 +3,8 @@ using System.Collections;
 
 public class UIManager : MonoSingleton<UIManager> {
 
+    public UIPlayerLifeBar playerLifeBar;
+
     public Canvas GameUICanvas;
     public Vector2 DisplayOffset = Vector2.zero;
 
@@ -10,7 +12,7 @@ public class UIManager : MonoSingleton<UIManager> {
 
     void Start () {
 
-        
+        playerLifeBar.LinkedLE = GameManager.Instance.MainPlayer.GetComponent<LivingEntity>();
 
 
     }
