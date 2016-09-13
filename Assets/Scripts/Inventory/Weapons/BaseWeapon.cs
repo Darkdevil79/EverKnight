@@ -49,6 +49,9 @@ public abstract class BaseWeapon : MonoBehaviour {
             if (!hasAppliedDamage)
             {
                 Debug.Log("Apply Damage on " + hitEntiy.name);
+
+                hitEntiy.EntityTakeHit(hitObject.transform.position);
+
                 ApplyDamageToHitObject(hitEntiy);
             }
         }

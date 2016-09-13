@@ -182,6 +182,11 @@ public class LivingEntity : MonoBehaviour, IDamageable
         }
     }
 
+    public virtual void EntityTakeHit(Vector2 hitPos)
+    {
+
+    }
+
     public virtual void OnDeath()
     {
         isDead = true;

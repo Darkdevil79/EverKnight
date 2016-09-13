@@ -118,6 +118,11 @@ public class WalkingEnemy : LivingEntity {
 
     }
 
+    public override void EntityTakeHit(Vector2 hitPos)
+    {
+        Instantiate(Resources.Load("Effects/BloodHit"), hitPos, Quaternion.identity);
+    }
+
     public override void OnDeath()
     {
         base.OnDeath();
